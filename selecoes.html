@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Seleções</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!--Source das fontes-->
+    <link rel="stylesheet" href="https://use.typekit.net/srv4abh.css">
+    <!--js para mostrar tabelas-->
+    <script>
+        function toggleTable() {
+            var myTable = document.getElementById("table-sel");
+            myTable.style.display = (myTable.style.display == "table") ? "none" : "table";
+        }
+    </script>
     
 </head>
 
@@ -31,14 +40,228 @@
         </div><!--center-->
     </header>
     <main>
-        <div class="center">
-            <div class="center-inicial">
-                <h1>Doze seleções que participarão da Copa de 2022</h1>
+        <div class="main-pg-default">
+            <div><!--main content-->
+                <h1 class="h1-sel">FASE DE GRUPOS CATAR 2022</h1>
+                <br>
+                <br>
+                <div><!--grupo a-->
+                    <h2 class="h2-sel">Grupo A</h2>
+                    <br>
+                    <br>
 
+                    <h3 class="h3-sel">CATAR</h3>
+                    <div class="sbs"><!--sbs = Side by Side-->
+                        <img class="tec-imgs" src="./img/tec-sanchez.webp">
+                        <p class="p-sel">
+                        A Seleção Catariana de Futebol representa o Catar nas competições de futebol da FIFA. O Catar sediará a Copa do Mundo FIFA de 2022,
+                        e consequentemente participará de sua primeira Copa do Mundo com a sua seleção.
+                        </p>
+                    </div>
+                    <p class="p-tecnicos">Técnico Félix Sánchez Bas</p>
+                    <br>
+                    <br>
 
-            </div><!--div center-inicial-->
-        </div><!--center-->
-    
+                    <h3 class="h3-sel">EQUADOR</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/tec-alfaro.jpg">
+                        <p class="p-sel">
+                            A Seleção Equatoriana de Futebol representa o Equador nas competições da FIFA e controlada pela Federación Ecuatoriana de Fútbol. É atualmente uma 
+                            grande equipe que vem evoluindo sistematicamente ao longo dos últimos anos, tendo disputado os Mundiais de 2002, ficando em 24° lugar, 2006, ficando em 
+                            12° lugar e 2014, ficando em 17° lugar neste período.
+                        </p>
+                    </div>
+                    <p class="p-tecnicos">Técnico Gustavo Julio Alfaro</p>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">HOLANDA</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/tec-gaal.webp">
+                        <p class="p-sel">
+                            A Seleção Neerlandesa de Futebol, representa os Países Baixos nas competições de futebol da UEFA e FIFA. Os Países Baixos participaram de sua 
+                            primeira Copa do Mundo em 1934, e depois de retornar em 1938, desapareceram do mundo do futebol. Os Holandeses foram longe, chegando a duas finais
+                            de Copa do Mundo na década de 70 (1974 e 1978).  A grande equipe decepcionaria no retorno às Copas, no mundial de 1990, despedindo-se nas oitavas-de-final.
+                            Os Países Baixos ficaram com o vice-campeonato mundial em 2010, o terceiro em sua história, após 1974 e 1978. Na copa seguinte, a seleção
+                            Neerlandesa acabou por ficar em terceiro lugar e retornou somente na Copa do Mundo de 2022.
+                        </p>
+                    </div>
+                    <p class="p-tecnicos">Técnico Louis van Gaal</p>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">SENEGAL</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/tec-cisse.jpg">
+                        <p class="p-sel">
+                            A Seleção Senegalesa de Futebol representa o Senegal nas competições de futebol da FIFA. A primeira participação da Seleção do Senegal em Copas do Mundo 
+                            ocorreu em 2002, tendo defrontado e vencido a então seleção campeã do mundo, a França no jogo inaugural da competição. Acabou em sétimo lugar após ser 
+                            eliminada nas quartas-de-final pela Turquia. Nas Eliminatórias da Copa do Mundo de 2018, se classificou em 1º lugar no seu grupo, garantindo assim vaga 
+                            para o segundo Mundial de sua história.
+                        </p>
+                    </div>
+                    <p class="p-tecnicos">Técnico Aliou Cissé</p>
+                    <br>
+                    <br>
+
+                    <a class="button-style" id="toggleTableDisplay" onclick="toggleTable();" href="javascript:void(0)">MOSTRAR TABELA</a>                   
+                    <div>
+                        <br>
+                        <table id="table-sel" style="display: none" border="1">
+                            <tr><th colspan="4">TABELA DE JOGOS GRUPO A</th></tr>
+                            <tr>
+                                <th>TIMES</th>
+                                <th>ADVERSÁRIOS</th>
+                                <th>ESTÁDIO</th>
+                                <th>DATA/HORA</th>
+                            </tr>
+
+                            <tr>
+                                <td>Catar</td>
+                                <td>Equador</td>
+                                <td>Al Bayt</td>
+                                <td>20/11 - 13h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Senegal</td>
+                                <td>Holanda</td>
+                                <td>Al Thumana</td>
+                                <td>21/11 - 13h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Catar</td>
+                                <td>Senegal</td>
+                                <td>Al Thumana</td>
+                                <td>25/11 - 10h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Holanda</td>
+                                <td>Equador</td>
+                                <td>Khalifa International</td>
+                                <td>25/11 - 13h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Equador</td>
+                                <td>Senegal</td>
+                                <td>Khalifa International</td>
+                                <td>29/11 - 12h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Holanda</td>
+                                <td>Catar</td>
+                                <td>Al Bayt</td>
+                                <td>29/11 - 12h00</td>
+                            </tr>
+                        </table>
+                        <br>
+                    </div>
+                </div>
+                </div><!--grupo a end-->
+
+                <div><!--grupo b-->
+                    <h2 class="h2-sel">GRUPO B</h2>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">ESTADOS UNIDOS</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/">
+                        <p class="p-sel">
+                            teste
+                        </p>
+                        <br>
+                    </div>
+                    <p class="p-tecnicos">Técnico</p>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">INGLATERRA</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/">
+                        <p class="p-sel">
+                            teste
+                        </p>
+                        <br>
+                    </div>
+                    <p class="p-tecnicos">Técnico</p>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">IRÃ</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/">
+                        <p class="p-sel">
+                            teste
+                        </p>
+                        <br>
+                    </div>
+                    <p class="p-tecnicos">Técnico</p>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">PAÍS DE GALES</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/">
+                        <p class="p-sel">
+                            teste
+                        </p>
+                        <br>
+                    </div>
+                    <p class="p-tecnicos">Técnico</p>
+                    <br>
+                    <br>
+                </div><!--grupo b end-->
+
+                <div><!--grupo c-->
+                    <h2 class="h2-sel">GRUPO C</h2>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">ARGENTINA</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/">
+                        <p class="p-sel">
+                            teste
+                        </p>
+                        <br>
+                    </div>
+                    <p class="p-tecnicos">Técnico</p>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">ARÁBIA SAUDITA</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/">
+                        <p class="p-sel">
+                            teste
+                        </p>
+                        <br>
+                    </div>
+                    <p class="p-tecnicos">Técnico</p>
+                    <br>
+                    <br>
+
+                    <h3 class="h3-sel">MÉXICO</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/tec-martino.jpg">
+                        <p class="p-sel">
+                            A Seleção Mexicana de Futebol representa o México nas competições de futebol e é regido pela Federação Mexicana de Futebol (Femexfut ou FMF),
+                            o órgão regulador do futebol no México. O México se classificou para quatorze Copas do Mundo e se classificou consecutivamente desde 1994. A
+                            seleção não ganhou nenhuma copa desde então.
+                        </p>
+                        <br>
+                    </div>
+                    <p class="p-tecnicos">Técnico Gerardo Martino</p>
+                    <br>
+                    <br>
+                </div><!--grupo c end-->
+            </div><!--main content end-->
+        </div><!--main-pg-default-->    
     </main>
 </body>
 </html>

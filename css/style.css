@@ -105,16 +105,91 @@ article.img{
     
 }
 
-.dropdown-content-sel a:hover{
-    color: #b65870;
+.dropdown-content-sel a:hover{color: #b65870;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropdown{background-color: #000000;}
+
+.main-pg-default{
+    margin: 0 auto;
+    width: 940px;
+
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.h1-sel{
+    text-align: center;
+    font-family: korolev, verdana;
+    font-weight: 700;
+    font-style: italic;
 }
 
-.dropdown:hover .dropdown{
-    background-color: #000000;
+.h2-sel{
+    font-family: korolev, verdana;
+    font-weight: 700;
+    font-style: italic;
 }
+
+.h3-sel{
+    font-family: korolev-condensed, verdana;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sbs{display: flex;}
+
+.p-sel{
+    font-family: verdana,sans-serif;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.p-tecnicos{
+    margin: 7px 0px 0px 60px;
+    font-family: korolev;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.tec-imgs{
+    width: 300px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+
+.button-style{
+    font-family: korolev;
+    font-weight: 700;
+    text-decoration: none;
+    background-color:#990f31;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#table-sel{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#table-sel th, td{padding: 5px;}
+#table-sel th{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+}
+#table-sel td{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+}
+#table-sel tr:nth-child(even) {background-color: #dddddd;}
 
 /* ---------------------------------------- */
