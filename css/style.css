@@ -80,6 +80,12 @@ article.img{
 }
 
 /* --------- CSS PÁGINA SELEÇÕES -----------*/
+.anchor{
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -115px; 
+    visibility: hidden;
+  }
 
 .dropdown{
     position: relative;
