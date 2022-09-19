@@ -26,9 +26,7 @@ header{
     font-size: 18px;
 }
 
-.menu li a:hover{
-    background-color: #a8153a;
-}
+.menu li a:hover{background-color: #a8153a;}
 
 .header nav{
     display: flex;
@@ -58,7 +56,7 @@ header{
 
 
 .center-inicial h1{
-    padding-top: 35px;
+    padding-top: 20px;
     font-size: 20px;
     padding-bottom: 20px;
     padding-left: 60px;
@@ -75,6 +73,14 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 600px;
     text-indent: 35px;     
+}
+
+.mapacatar{
+    padding-top: 15px;
+    padding-left: 50px;  
+    width: 48%; 
+    float:left;
+    margin-right: 15px;
 }
 
 .copa1930{
@@ -216,6 +222,35 @@ article.img{
 }
 #table-sel tr:nth-child(even) {background-color: #dddddd;}
 
+.player-table{
+    border-collapse: collapse ;
+}
+
+.player-table th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+.player-table th{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+    color: white;
+}
+
+.player-table td{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#catar{background-color: #990f31;}
+#equador{background-color: #e7eb2f;}
+#senegal{background-color: #108a00;}
+#holanda{background-color: #2628a8;}
+
 /* ---------------------------------------- */
 
 /* CSS PÁGINA GRUPOS */
@@ -242,6 +277,7 @@ article.img{
     font-size: 20px;
     font-style: normal;
 }
+
 
 /* ---------------------------------------- */
 
