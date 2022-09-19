@@ -26,9 +26,7 @@ header{
     font-size: 18px;
 }
 
-.menu li a:hover{
-    background-color: #a8153a;
-}
+.menu li a:hover{background-color: #a8153a;}
 
 .header nav{
     display: flex;
@@ -224,9 +222,39 @@ article.img{
 }
 #table-sel tr:nth-child(even) {background-color: #dddddd;}
 
+.player-table{
+    border-collapse: collapse ;
+}
+
+.player-table th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+.player-table th{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+    color: white;
+}
+
+.player-table td{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#catar{background-color: #990f31;}
+#equador{background-color: #e7eb2f;}
+#senegal{background-color: #108a00;}
+#holanda{background-color: #2628a8;}
+
 /* ---------------------------------------- */
 
 /* CSS PÁGINA GRUPOS */
+
 
 
 /* ---------------------------------------- */
