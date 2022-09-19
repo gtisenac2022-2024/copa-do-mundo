@@ -10,40 +10,41 @@
     <!--Source das fontes-->
     <link rel="stylesheet" href="https://use.typekit.net/srv4abh.css">
     <!--js para mostrar tabelas-->
-    <script>
-        function toggleTable() {
-            var myTable = document.getElementById("table-sel");
-            myTable.style.display = (myTable.style.display == "table") ? "none" : "table";
-        }
-    </script>
     
 </head>
 
 <body>
-    <header>
-        <div class="center">
-            <div class="logo"><img alt="Imagem da logo da Copa do Mundo de 2022" src="./img/fifa logo 3.png"></div><!--logo-->
-            <div class="menu">
-                <a href="index.html" target="_self">Página Inicial</a>
-                <div class="dropdown"><!--Dropdown Seleções-->
-                    <a id="drop-sel" href="selecoes.html" target="_self">Seleções</a>
-                    <div class="dropdown-content">
-                        <a href="#grupoA">Grupo A</a>
-                        <a href="#grupoB">Grupo B</a>
-                        <a href="#grupoC">Grupo C</a>
+    <header id="header">          
+        <div class="menu">
+            <div class="header">
+                <nav>
+                    <img class="logo" alt="Imagem da logo da Copa do Mundo de 2022" src="./img/fwc qatar logo.png">
+                    <div class="nav-header">
+                        <ul class="nav-links">
+                            <li><a href="index.html" target="_self">Página Inicial</a></li>
+                            <div class="dropdown"><!--Dropdown Seleções-->
+                            <li><a id="drop-sel" href="selecoes.html" target="_self">Seleções</a></li>
+                                <div class="dropdown-content">
+                                    <a href="./selecoes.html">Grupo A</a>
+                                    <a href="./selecoes.html#grupoB">Grupo B</a>
+                                    <a href="./selecoes.html#grupoC">Grupo C</a>
+                                </div>
+                            </div>                                          
+                            <li><a href="estadios.html" target="_self">Estádios</a></li>
+                            <li><a href="grupos.html" target="_self">Grupos</a></li>
+                        </ul>
                     </div>
-                </div>
-                <a href="estadios.html" target="_self">Estádios</a>
-                <a href="grupos.html" target="_self">Grupos</a>
-            </div><!--menu-->
-            
-        </div><!--center-->
+                </nav>
+            </div>
+        </div><!--menu-->
     </header>
+
     <main>
         <div class="main-pg-default">
             <div><!--main content-->
                 <h1 class="h1-sel">FASE DE GRUPOS CATAR 2022</h1>
                 <br>
+                <hr class="text-div">
                 <br>
                 <div><!--grupo a-->
                     <h2 class="h2-sel">Grupo A</h2>
@@ -272,5 +273,19 @@
             </div><!--main content end-->
         </div><!--main-pg-default-->    
     </main>
+<footer>
+    <div class="footer">
+        <img id="senac-logo-footer" src="./img/senac-logo.png">
+        <ol class="ol-footer">
+            <li>Gustavo Bessa</li>
+            <li>Jéssica Simas</li>
+            <li>Rafael Moreira</li>
+            <li>Vinícius Simon</li>
+        </ol>
+    </div>
+    <hr>
+    <p class="p-footer">&copy; Senac DF 2022</p>
+</footer>
+<script src="./js/script.js"></script>
 </body>
 </html>
