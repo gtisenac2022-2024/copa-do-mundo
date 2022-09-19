@@ -16,6 +16,8 @@ header{
     margin-bottom: 30px;
 }
 
+
+
 .menu li a{
     border-radius: 10px;
     color: white;
@@ -34,6 +36,12 @@ header{
     justify-content: center;
 }
 
+.nav-links li a, .dropdown-content a{
+    font-family: rift,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
 
 .nav-links li{
     display: inline-block;
@@ -99,10 +107,11 @@ article.img{
 }
 
 .dropdown-content{
+    text-align: center;
     background-color: #FFFFFF;
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: 110px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 10px;
@@ -209,14 +218,24 @@ article.img{
 
 /* ---------------------------------------- */
 
+/* CSS PÁGINA GRUPOS */
+
+
+/* ---------------------------------------- */
+
 /* CSS FOOTER */
 footer{
     background-color: #990f31;
     margin: 0 auto;
-    align-content: center;
+    align-content: left;
     text-align: center;
     padding: 30px;
     color: #FFFFFF;
+}
+
+.footer{
+    display: inline-block;
+    margin-bottom: 18px;
 }
 
 .ol-footer{
@@ -229,15 +248,41 @@ footer{
 
 .ol-footer li{
     display: inline-block;
-    padding: 11px;
     text-align: center;
+    font-family: depot-new-web, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.ol-footer li a{
+    color: white;
+    font-family: rift, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.ol-footer li a:hover{
+    background-color: #a8153a;
+    color: #FFFFFF
 }
 
 .p-footer{
     margin-top: 15px;
+    font-family: depot-new-web, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    font-style: normal;
+}
+
+#hr-footer{
+    border: 1px solid white;
 }
 
 #senac-logo-footer{
+    padding: 9px;
     width: 10%;
 }
 
