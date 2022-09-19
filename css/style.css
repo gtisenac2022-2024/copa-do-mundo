@@ -77,6 +77,14 @@ header{
     text-indent: 35px;     
 }
 
+.mapacatar{
+    padding-top: 15px;
+    padding-left: 50px;  
+    width: 48%; 
+    float:left;
+    margin-right: 15px;
+}
+
 .copa1930{
     padding-top: 15px;
     padding-left: 50px;  
