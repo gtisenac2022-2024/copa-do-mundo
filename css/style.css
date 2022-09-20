@@ -116,10 +116,9 @@ aside{
 }
 
 .main-text{
-    padding: 300px;
-    text-align: center;
-    position: relative;
-    width: ;
+    margin-left: 120px;
+    width: 100%vh;
+    height: 100vh;
 }
 
 .center-inicial h1{
@@ -310,7 +309,12 @@ aside{
 }
 .listgrupo{
     list-style-type: none;
+}
 
+.listgrupo li{
+    font-family: depot-new-condensed-web, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
 }
 
 /* ---------------------------------------- */
