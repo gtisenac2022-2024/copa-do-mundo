@@ -305,7 +305,10 @@ aside{
     font-size: 20px;
     font-style: normal;
 }
+.listgrupo{
+    list-style-type: none;
 
+}
 
 /* ---------------------------------------- */
 
