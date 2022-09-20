@@ -383,3 +383,77 @@ footer{
 }
 
 /* ---------------------------------------- */
+
+/* --------- CSS PÁGINA Estádios -----------*/
+
+.footer{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.container img {
+max-width:200px;
+max-height:150px;
+width: auto;
+height: auto;
+}
+
+.khalifa{
+padding-top: 15px;
+padding-left: 50px;  
+width: 48%; 
+float:left;
+margin-right: 15px;
+}
+
+
+.Lusail{
+padding-top: 15px;
+padding-left: 50px;  
+width: 48%; 
+float:left;
+margin-right: 15px;
+}
+
+.bayt{
+padding-top: 15px;
+padding-left: 50px;  
+width: 48%; 
+float:left;
+margin-right: 15px;
+}
+
+.thumama{
+padding-top: 15px;
+padding-left: 50px;  
+width: 48%; 
+float:left;
+margin-right: 15px;
+}
+
+.doha{
+padding-top: 15px;
+padding-left: 50px;  
+width: 48%; 
+float:left;
+margin-right: 15px;
+}
+
+.janoub{
+padding-top: 15px;
+padding-left: 50px;  
+width: 48%; 
+float:left;
+margin-right: 15px;
+}
+
+.posicionar{
+padding-top: 15px;
+padding-left: 50px;  
+width: 48%; 
+float:left;
+margin-right: 15px;
+}
