@@ -116,7 +116,10 @@ aside{
 }
 
 .main-text{
-    font-family: 'Qatar2022 Arabic';
+    padding: 300px;
+    text-align: center;
+    position: relative;
+    width: ;
 }
 
 .center-inicial h1{
