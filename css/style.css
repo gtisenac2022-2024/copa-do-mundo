@@ -201,60 +201,91 @@ article.img{
     border-radius: 7px;
 }
 
-#table-sel{
+.table-sel{
     width: 100%;
     border-radius: 10px;
     text-align: center;
     border-collapse: collapse;
 }
-#table-sel th, td{padding: 5px;}
-#table-sel th{
+.table-sel th, td{padding: 5px;}
+.table-sel th{
     font-family: depot-new-condensed-web,sans-serif;
     font-weight: 700;
     font-size: 22px;
     font-style: normal;
 }
-#table-sel td{
+.table-sel td{
     font-family: depot-new-condensed-web,sans-serif;
     font-weight: 300;
     font-size: 20px;
     font-style: normal;
 }
-#table-sel tr:nth-child(even) {background-color: #dddddd;}
+.table-sel tr:nth-child(even) {background-color: #dddddd;}
 
 .player-table{
-    border-collapse: collapse ;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 .player-table th, td{
-    padding: 10px;
+    font-family: depot-new-condensed-web,sans-serif;
     text-align: center;
+    font-style: normal;
+    padding: 10px;
+    
 }
 
 .player-table th{
-    font-family: depot-new-condensed-web,sans-serif;
     font-weight: 700;
     font-size: 22px;
-    font-style: normal;
     color: white;
 }
 
 .player-table td{
+    font-weight: 300;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#catar{background-color: #990f31;}
+#equador{background-color: #DCB204;}
+#senegal{background-color: #108a00;}
+#holanda{background-color: #f1680c;}
+#usa{background-color: #3952A7;}
+#ingl{background-color: #242953;}
+#ira{background-color: #1DA03E;}
+#paisg{background-color: #DD282A;}
+#arg{background-color: #89B4E1;}
+#arab{background-color: #14584D;}
+#mex{background-color: #00B280;}
+#pol{background-color: #D2011C;}
+
+/* ---------------------------------------- */
+
+/* CSS PÁGINA GRUPOS */
+#grupos{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#grupos th, td{
+    padding: 5px;
+}
+#grupos th{
+    color: white;
+    background-color: #a8153a;
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+}
+#grupos td{
     font-family: depot-new-condensed-web,sans-serif;
     font-weight: 300;
     font-size: 20px;
     font-style: normal;
 }
-
-#catar{background-color: #990f31;}
-#equador{background-color: #e7eb2f;}
-#senegal{background-color: #108a00;}
-#holanda{background-color: #2628a8;}
-
-/* ---------------------------------------- */
-
-/* CSS PÁGINA GRUPOS */
-
 
 
 /* ---------------------------------------- */
