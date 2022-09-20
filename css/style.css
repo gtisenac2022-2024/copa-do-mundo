@@ -116,9 +116,9 @@ aside{
 }
 
 .main-text{
-    padding: 300px;
-    text-align: center;
-    position: relative;
+    margin-left: 120px;
+    width: 100%vh;
+    height: 100vh;
 }
 
 .center-inicial h1{
