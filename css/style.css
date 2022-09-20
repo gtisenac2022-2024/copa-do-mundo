@@ -10,13 +10,14 @@ html,body{
     align-items: center;   
 }
 
+/* HEADER */
+
 header{
     background-color: #990f31;
     box-sizing: content-box;
     margin-bottom: 30px;
+    position: sticky;
 }
-
-
 
 .menu li a{
     border-radius: 10px;
@@ -46,6 +47,16 @@ header{
     margin: 0px 15px;
 }
 
+@keyframes navanim {
+    0%{font-size: 20px;}
+    100%{font-size: 21px;}
+}
+
+.nav-links li a:hover{
+    animation-name: navanim;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
 
 .logo {
     width: 10%;
@@ -54,6 +65,50 @@ header{
     padding: 15px;
 }
 
+.anchor{
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -115px; 
+    visibility: hidden;
+  }
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    text-align: center;
+    background-color: #FFFFFF;
+    display: none;
+    position: absolute;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a{
+    color: #990f31;
+    background-color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px; 
+}
+
+.dropdown-content a:hover{
+    background-color: #990f31;
+    color: #FFFFFF;
+    animation-name: navanim;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+.dropdown-content-sel a:hover{color: #b65870;}
+.dropdown:hover .dropdown-content {display: block;}
+
+/*--------------------------------------------------*/
 
 .center-inicial h1{
     padding-top: 20px;
@@ -94,57 +149,16 @@ main{
     padding-top: 10px;
 }
 
-article.img{
+.article.img{
     width: 200px;
     height: 200px;      
 }
 
 /* --------- CSS PÁGINA SELEÇÕES -----------*/
-.anchor{
-    display: block;
-    height: 115px; /*same height as header*/
-    margin-top: -115px; 
-    visibility: hidden;
-  }
-
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content{
-    text-align: center;
-    background-color: #FFFFFF;
-    display: none;
-    position: absolute;
-    min-width: 110px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 10px;
-}
-
-.dropdown-content a{
-    color: #990f31;
-    background-color: #FFFFFF;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border-radius: 5px; 
-}
-
-.dropdown-content a:hover{
-    background-color: #990f31;
-    color: #FFFFFF;
-}
-
-.dropdown-content-sel a:hover{color: #b65870;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropdown{background-color: #000000;}
 
 .main-pg-default{
     margin: 0 auto;
     width: 940px;
-
 }
 
 .h1-sel{
