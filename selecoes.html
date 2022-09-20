@@ -109,10 +109,10 @@
                     <br>
                     <br>
 
-                    <a class="button-style" id="toggleTableDisplay" onclick="toggleTable();" href="javascript:void(0)">MOSTRAR TABELA</a>                   
+                    <a class="button-style" id="toggleTableDisplay" onclick="toggleTable();" href="javascript:void(0)">MOSTRAR TABELAS</a>                   
                     <div>
                         <br>
-                        <table id="table-sel"  border="1">
+                        <table class="table-sel" id="table-sel" style="display: none;" border="1">
                             <tr><th colspan="5">TABELA DE JOGOS GRUPO A</th></tr>
                             <tr>
                                 <th>TIMES</th>
@@ -164,9 +164,10 @@
                             </tr>
                         </table>
                         <br>
-                    </div>
+                        
+                    </div><!--table-sel-A-->
                     <div>
-                        <table class="player-table" border="1">
+                        <table id="player-table-A" style="display: none;" class="player-table" border="1">
                             <tr><th colspan="4" style="background-color: black;">JOGADORES PRINCIPAIS</th></tr>
                             <tr>
                                 <th id="catar">CATAR</th>
@@ -240,11 +241,12 @@
                                 <td>Ismaïla Sarr</td>
                                 <td>Memphis Depay</td>
                             </tr>
-
                         </table>
-                    </div>
-                </div>
+                        <br> 
+                    </div><!--player-table-A-->
                 </div><!--grupo a end-->
+                <hr>
+                <br>
 
                 <div><!--grupo b-->
                     <h2 class="h2-sel">GRUPO B</h2>
@@ -253,9 +255,12 @@
 
                     <h3 class="h3-sel">ESTADOS UNIDOS</h3>
                     <div class="sbs">
-                        <img class="tec-imgs" src="./img/">
+                        <img class="tec-imgs" src="./img/tec-behalter.jpeg">
                         <p class="p-sel">
-                            teste
+                            A Seleção de Futebol dos Estados Unidos, representa os Estados Unidos da América internacionalmente em competições futebolísticas. 
+                            Ela é controlada pela Federação de Futebol dos Estados Unidos e compete pela CONCACAF (Confederação de Futebol da América do Norte, 
+                            Central e Caribe). Na Copa do Mundo FIFA de 1930, os EUA terminaram em terceiro, tendo alcançado as semifinais com as duas vitórias,
+                            o lado americano perdeu de 6-1 para a Argentina. E desde então só chegou ao 8° lugar em 2002, na Copa sediada por Coréia e Japão.
                         </p>
                         <br>
                         <!--Espaço vazio para direcionamento através da navegação da header-->
@@ -263,73 +268,228 @@
                         <div class="section"></div>
 
                     </div>
-                    <p class="p-tecnicos">Técnico</p>
+                    <p class="p-tecnicos">Técnico Gregg Berhalter</p>
                     <br>
                     <br>
 
                     <h3 class="h3-sel">INGLATERRA</h3>
                     <div class="sbs">
-                        <img class="tec-imgs" src="./img/">
+                        <img class="tec-imgs" src="./img/tec-southgate.jpg">
                         <p class="p-sel">
-                            teste
+                            A Seleção Inglesa de Futebol é organizada pela Football Association, a instituição que administra o futebol na Inglaterra,
+                            e representa a nação nas competições internacionais de futebol da FIFA e da UEFA, como a Copa do Mundo e a Eurocopa. Devido a
+                            conflitos a Inglaterra com a FIFA não disputou as primeiras Copas do Mundo, mas uma reconciliação foi estabelecida em 1946, o 
+                            que permitiu que a Seleção Inglesa disputasse a Copa do Mundo FIFA pela primeira vez em 1950. Na copa de 1966, a seleção
+                            conquistou um título em solo inglês, batendo a Alemanha Ocidental na final por 4-2.
                         </p>
                         <br>
                     </div>
-                    <p class="p-tecnicos">Técnico</p>
+                    <p class="p-tecnicos">Técnico Gareth Southgate</p>
                     <br>
                     <br>
 
                     <h3 class="h3-sel">IRÃ</h3>
                     <div class="sbs">
-                        <img class="tec-imgs" src="./img/">
+                        <img class="tec-imgs" src="./img/tec-queiroz.jpg">
                         <p class="p-sel">
-                            teste
+                            A Seleção Iraniana de Futebol representa o Irã nas competições de futebol da FIFA e é controlada pela Federação de Futebol
+                            da República Islâmica do Irã e é um dos principais selecionados do esporte na Ásia. Em 1978, o Irã fez sua primeira 
+                            participação em Copas e perdeu dois dos três jogos da primeira fase contra a Holanda e o Peru. E desde então não conquistou
+                            nenhum título.
                         </p>
                         <br>
                     </div>
-                    <p class="p-tecnicos">Técnico</p>
+                    <p class="p-tecnicos">Técnico Carlos Queiroz</p>
                     <br>
                     <br>
 
                     <h3 class="h3-sel">PAÍS DE GALES</h3>
                     <div class="sbs">
-                        <img class="tec-imgs" src="./img/">
+                        <img class="tec-imgs" src="./img/tec-page.webp">
                         <p class="p-sel">
-                            teste
+                            A Seleção Galesa de Futebol representa o País de Gales nas competições de futebol da FIFA. Esta seleção só esteve três
+                            vezes em competições oficiais, sendo a primeira Copa do Mundo, em 1958, na qual chegou aos quartas-de-final.
                         </p>
                         <br>
                     </div>
-                    <p class="p-tecnicos">Técnico</p>
+                    <p class="p-tecnicos">Técnico Rob Page</p>
                     <br>
                     <br>
+
+                    <a class="button-style" id="toggleTableDisplay" onclick="toggleTable2();" href="javascript:void(0)">MOSTRAR TABELAS</a>                   
+                    <div>
+                        <br>
+                        <table class="table-sel" id="table-sel-B" style="display: none;" border="1">
+                            <tr><th colspan="5">TABELA DE JOGOS GRUPO B</th></tr>
+                            <tr>
+                                <th>TIMES</th>
+                                <th>ADVERSÁRIOS</th>
+                                <th>ESTÁDIO</th>
+                                <th>DATA/HORA</th>
+                            </tr>
+
+                            <tr>
+                                <td>Inglaterra</td>
+                                <td>Irã</td>
+                                <td>Khalifa International</td>
+                                <td>21/11 - 10h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Estados Unidos</td>
+                                <td>País de Gales</td>
+                                <td>Ahmad Bin Ali</td>
+                                <td>21/11 - 16h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>País de Gales</td>
+                                <td>Irã</td>
+                                <td>Ahmad Bin Ali</td>
+                                <td>25/11 - 07h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Inglaterra</td>
+                                <td>Estados Unidos</td>
+                                <td>Al Bayt</td>
+                                <td>25/11 - 16h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Irã</td>
+                                <td>Estados Unidos</td>
+                                <td>Al Thumana</td>
+                                <td>29/11 - 16h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>País de Gales</td>
+                                <td>Inglaterra</td>
+                                <td>Ahmad Bin Ali</td>
+                                <td>29/11 - 16h00</td>
+                            </tr>
+                        </table>
+                        <br>                        
+                    </div><!--table-sel-B-->
+
+                    <div>
+                        <table id="player-table-B" class="player-table" style="display: none;" border="1">
+                            <tr><th colspan="4" style="background-color: black;">JOGADORES PRINCIPAIS</th></tr>
+                            <tr>
+                                <th id="ingl">INGLATERRA</th>
+                                <th id="usa">ESTADOS UNIDOS</th>
+                                <th id="ira">IRÃ</th>
+                                <th id="paisg">PAÍS DE GALES</th>
+                            </tr>
+                            <tr>
+                                <td>Jordan Pickford</td>
+                                <td>Matt Turner</td>
+                                <td>Alireza Beiranvand</td>
+                                <td>Wayne Hennessey</td>
+                            </tr>
+                            <tr>
+                                <td>Harry Maguire</td>
+                                <td>Sergiño Dest</td>
+                                <td>Hossein Kanaani</td>
+                                <td>Ethan Ampadu</td>
+                            </tr>
+                            <tr>
+                                <td>Luke Shaw</td>
+                                <td>Antonee Robinson</td>
+                                <td>Shoja Khalilzadeh</td>
+                                <td>Ben Davies</td>
+                            </tr>
+                            <tr>
+                                <td>John Stones</td>
+                                <td>Deandre Yedlin</td>
+                                <td>Milad Mohammadi</td>
+                                <td>Connor Roberts</td>
+                            </tr>
+                            <tr>
+                                <td>Kyle Walker</td>
+                                <td>Walker Zimmerman</td>
+                                <td>Saeid Ezatolahi</td>
+                                <td>Joe Rodon</td>
+                            </tr>
+                            <tr>
+                                <td>Mason Mount</td>
+                                <td>Tyler Adams</td>
+                                <td>Ali Gholizadeh</td>
+                                <td>Neco Williams</td>
+                            </tr>
+                            <tr>
+                                <td>Kalvin Phillips</td>
+                                <td>Weston McKennie</td>
+                                <td>Alireza Jahanbakhsh</td>
+                                <td>Joe Allen</td>
+                            </tr>
+                            <tr>
+                                <td>Declan Rice</td>
+                                <td>Ricardo Pepi</td>
+                                <td>Ahmad Nourollahi</td>
+                                <td>Aaron Ramsey</td>
+                            </tr>
+                            <tr>
+                                <td>Phil Foden</td>
+                                <td>Christian Pulisic</td>
+                                <td>Sardar Azmoun</td>
+                                <td>Gareth Bale</td>
+                            </tr>
+                            <tr>
+                                <td>Harry Kane</td>
+                                <td>Giovanni Reyna</td>
+                                <td>Mehdi Taremi</td>
+                                <td>Daniel James</td>
+                            </tr>
+                            <tr>
+                                <td>Raheem Sterling</td>
+                                <td>Timothy Weah</td>
+                                <td>Ismaïla Sarr</td>
+                                <td>Kieffer Moore</td>
+                            </tr>
+                        </table>
+                        <br> 
+                    </div><!--player-table-B-->
                 </div><!--grupo b end-->
+                <hr>
+                <br>
 
                 <div><!--grupo c-->
                     <h2 class="h2-sel">GRUPO C</h2>
                     <br>
                     <br>
 
+                    <!--Espaço vazio para direcionamento através da navegação da header-->
+                    <span class="anchor" id="grupoC"></span>
+                    <div class="section"></div>
+
                     <h3 class="h3-sel">ARGENTINA</h3>
                     <div class="sbs">
-                        <img class="tec-imgs" src="./img/">
+                        <img class="tec-imgs" src="./img/tec-scaloni.webp">
                         <p class="p-sel">
-                            teste
+                            A Seleção Argentina de Futebol representa na Associação do Futebol Argentino nas competições de futebol da CONMEBOL e FIFA. A Argentina
+                            possui 17 participações em Copas do Mundo (contando até a Copa de 2018), não tendo participado apenas de quatro Copas. Em 1938, desistiu
+                            de competir por não concordar que a Copa daquele ano fosse novamente na Europa, como já havia sido em 1934. Os argentinos viriam a ganhar
+                            a final na sua segunda tentativa, em 1978 e a seleção argentina também ganhou em 1986, garantindo assim dois truféus mundiais.
                         </p>
                         <br>
                     </div>
-                    <p class="p-tecnicos">Técnico</p>
+                    <p class="p-tecnicos">Técnico Lionel Scaloni</p>
                     <br>
                     <br>
 
                     <h3 class="h3-sel">ARÁBIA SAUDITA</h3>
                     <div class="sbs">
-                        <img class="tec-imgs" src="./img/">
+                        <img class="tec-imgs" src="./img/tec-renard.jpg">
                         <p class="p-sel">
-                            teste
+                            A Seleção Saudita de Futebol representa a Arábia Saudita nas competições de futebol controlado pela Federação Saudita de Futebol. Eles aparecem
+                            como novatos no cenário mundial, tendo feito sua primeira Copa do Mundo em 1994 e derrotando a Bélgica na primeira fase antes de ser eliminado
+                            pela Suécia na fase seguinte. Somente se classificou às oitavas-de-final em 1994 ficando em 12° lugar.
                         </p>
                         <br>
                     </div>
-                    <p class="p-tecnicos">Técnico</p>
+                    <p class="p-tecnicos">Técnico Hervé Renard</p>
                     <br>
                     <br>
 
@@ -346,7 +506,159 @@
                     <p class="p-tecnicos">Técnico Gerardo Martino</p>
                     <br>
                     <br>
+
+                    <h3 class="h3-sel">POLÔNIA</h3>
+                    <div class="sbs">
+                        <img class="tec-imgs" src="./img/tec-micheniewicz.jfif">
+                        <p class="p-sel">
+                            A Seleção Polonesa de Futebol representa a Polônia nas competições de futebol da UEFA e FIFA. Na Copa do Mundo seus melhores resultados foram dois
+                            terceiros lugares na 1974, 1982 e as quartas de finais na copa do mundo de mps, realizada na Espanha em 2019.
+                        </p>
+                    </div>
+                    <p class="p-tecnicos">Técnico Czesław Michniewicz</p>
+                    <br>
+                    <br>
+
+                    <a class="button-style" id="toggleTableDisplay" onclick="toggleTable3();" href="javascript:void(0)">MOSTRAR TABELAS</a>                   
+                    <div>
+                        <br>
+                        <table class="table-sel" id="table-sel-C" style="display: none;" border="1">
+                            <tr><th colspan="5">TABELA DE JOGOS GRUPO C</th></tr>
+                            <tr>
+                                <th>TIMES</th>
+                                <th>ADVERSÁRIOS</th>
+                                <th>ESTÁDIO</th>
+                                <th>DATA/HORA</th>
+                            </tr>
+
+                            <tr>
+                                <td>Argentina</td>
+                                <td>Arábia Saudita</td>
+                                <td>Lusail</td>
+                                <td>22/11 - 07h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>México</td>
+                                <td>Polônia</td>
+                                <td>Estádio 947</td>
+                                <td>22/11 - 13h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Polônia</td>
+                                <td>Arábia Saudita</td>
+                                <td>Educational City</td>
+                                <td>26/11 - 10h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Argentina</td>
+                                <td>México</td>
+                                <td>Lusail</td>
+                                <td>26/11 - 16h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Polônia</td>
+                                <td>Argentina</td>
+                                <td>Estádio 947</td>
+                                <td>30/11 - 16h00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Arábia Saudita</td>
+                                <td>México</td>
+                                <td>Lusail</td>
+                                <td>30/11 - 16h00</td>
+                            </tr>
+
+                        </table>
+                        <br>                        
+                    </div><!--table-sel-B-->
+
+                    <div>
+                        <table id="player-table-C" class="player-table" style="display: none;" border="1">
+                            <tr><th colspan="4" style="background-color: black;">JOGADORES PRINCIPAIS</th></tr>
+                            <tr>
+                                <th id="arg">ARGENTINA</th>
+                                <th id="arab">ARÁBIA SAUDITA</th>
+                                <th id="mex">MÉXICO</th>
+                                <th id="pol">POLÔNIA</th>
+                            </tr>
+                            <tr>
+                                <td>Emiliano Martínez</td>
+                                <td>Mohammed Al-Owais</td>
+                                <td>Guillermo Ochoa</td>
+                                <td>Wojciech Szczęsny</td>
+                            </tr>
+                            <tr>
+                                <td>Marcos Acuña</td>
+                                <td>Abdylelah Al-Amri</td>
+                                <td>Néstor Araújo</td>
+                                <td>Jan Bednarek</td>
+                            </tr>
+                            <tr>
+                                <td>Nahuel Molina</td>
+                                <td>Sultan Al-Ghannam</td>
+                                <td>Jesús Gallardo</td>
+                                <td>Bartosz Bereszyński</td>
+                            </tr>
+                            <tr>
+                                <td>Nicolás Otamendi</td>
+                                <td>Yasser Al-Shahrani</td>
+                                <td>César Montes</td>
+                                <td>Matty Cash</td>
+                            </tr>
+                            <tr>
+                                <td>Cristian Romero</td>
+                                <td>Hassan Al-Tambakti</td>
+                                <td>Jorge Sánchez</td>
+                                <td>Kamil Glik</td>
+                            </tr>
+                            <tr>
+                                <td>Rodrigo de Paul</td>
+                                <td>Abdullah Madu</td>
+                                <td>Edson Álvarez</td>
+                                <td>Kamil Jóźwiak</td>
+                            </tr>
+                            <tr>
+                                <td>Angel di María</td>
+                                <td>Salma Al-Faraj</td>
+                                <td>Jesús Manuel Corona</td>
+                                <td>Grzegorz Krychowiak</td>
+                            </tr>
+                            <tr>
+                                <td>Giovani Lo Celso</td>
+                                <td>Abdulelah Al-Malki</td>
+                                <td>Héctor Herrera</td>
+                                <td>Jakub Moder</td>
+                            </tr>
+                            <tr>
+                                <td>Leandro Paredes</td>
+                                <td>Mohamed Kanno</td>
+                                <td>Carlos Rodríguez</td>
+                                <td>Piotr Zieliński</td>
+                            </tr>
+                            <tr>
+                                <td>Lautaro Martínez</td>
+                                <td>Salem Al-Dawsari</td>
+                                <td>Raúl Jiménez</td>
+                                <td>Robert Lewandowski</td>
+                            </tr>
+                            <tr>
+                                <td>Lionel Messi</td>
+                                <td>Khalid Al-Ghannam</td>
+                                <td>Hirving Lozano</td>
+                                <td>Arkadiusz Milik</td>
+                            </tr>
+                        </table>
+                        <br> 
+                    </div><!--player-table-c-->
+
                 </div><!--grupo c end-->
+                <br>
+
             </div><!--main content end-->
         </div><!--main-pg-default-->    
     </main>
