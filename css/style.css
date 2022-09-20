@@ -110,6 +110,15 @@ header{
 
 /*--------------------------------------------------*/
 
+aside{
+    display: flex; 
+    padding-top: 10px;
+}
+
+.main-text{
+    font-family: 'Qatar2022 Arabic';
+}
+
 .center-inicial h1{
     padding-top: 20px;
     font-size: 20px;
@@ -142,11 +151,6 @@ header{
     padding-top: 15px;
     padding-left: 50px;  
     width: 80%;  
-}
-
-main{
-    display: flex; 
-    padding-top: 10px;
 }
 
 .article.img{
