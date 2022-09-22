@@ -177,7 +177,7 @@ div .main-text{
     font-family: korolev, verdana;
     font-weight: 700;
     font-style: italic;
-}
+}   
 
 .h3-sel{
     font-family: korolev-condensed, verdana;
@@ -391,86 +391,18 @@ footer{
     text-align: center;
 }
 
-#estadios-main{
-    margin: 0 auto ;
-    width: 940px;
+
+.main-pg-default p{
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 20px;
 }
 
-.container img {
-max-width:200px;
-max-height:150px;
-width: auto;
-height: auto;
-}
-
-.khalifa{
-text-align: right;
-padding-top: 15px;
-padding-left: 50px;
-padding-bottom:15px;   
-width: 48%; 
-float:left;
-margin-right: 15px;
-}
-
-
-.Lusail{
-padding-top: 15px;
-padding-left: 50px;
-padding-bottom:15px;   
-width: 48%; 
-float:left;
-margin-right: 15px;
-}
-
-.bayt{
-padding-top: 15px;
-padding-left: 50px; 
-padding-bottom:15px;  
-width: 48%; 
-float:left;
-margin-right: 15px;
-}
-
-.thumama{
-padding-top: 15px;
-padding-left: 50px;
-padding-bottom:15px;   
-width: 48%; 
-float:left;
-margin-right: 15px;
-}
-
-.doha{
-padding-top: 15px;
-padding-left: 50px;
-padding-bottom:15px;   
-width: 48%; 
-float:left;
-margin-right: 15px;
-}
-
-.janoub{
-padding-top: 15px;
-padding-left: 50px; 
-padding-bottom:15px; 
-width: 48%; 
-float:left;
-margin-right: 15px;
-}
-
-.posicionar{
-padding-top: 15px;
-padding-left: 50px;  
-width: 48%; 
-float:left;
-margin-right: 15px;
-}
-.center h1{
-    padding-top: 10px;
-    font-size:25px;
-    padding-bottom: 10px;
-    padding-left: 60px;  
-    max-width: 600px;
-    text-indent: 35px;     
+.estadios-img{   
+    text-align: justify;
+    width: 48%; 
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    border-radius: 10px;
 }
