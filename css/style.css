@@ -115,10 +115,9 @@ aside{
     padding-top: 10px;
 }
 
-.main-text{
-    margin-left: 120px;
-    width: 100%vh;
+div .main-text{
     height: 100vh;
+    background-size: cover;
 }
 
 .center-inicial h1{
@@ -392,7 +391,10 @@ footer{
     text-align: center;
 }
 
-
+#estadios-main{
+    margin: 0 auto ;
+    width: 940px;
+}
 
 .container img {
 max-width:200px;
