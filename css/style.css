@@ -403,7 +403,8 @@ height: auto;
 
 .khalifa{
 padding-top: 15px;
-padding-left: 50px;  
+padding-left: 50px;
+padding-bottom:15px;   
 width: 48%; 
 float:left;
 margin-right: 15px;
@@ -412,7 +413,8 @@ margin-right: 15px;
 
 .Lusail{
 padding-top: 15px;
-padding-left: 50px;  
+padding-left: 50px;
+padding-bottom:15px;   
 width: 48%; 
 float:left;
 margin-right: 15px;
@@ -420,7 +422,8 @@ margin-right: 15px;
 
 .bayt{
 padding-top: 15px;
-padding-left: 50px;  
+padding-left: 50px; 
+padding-bottom:15px;  
 width: 48%; 
 float:left;
 margin-right: 15px;
@@ -428,7 +431,8 @@ margin-right: 15px;
 
 .thumama{
 padding-top: 15px;
-padding-left: 50px;  
+padding-left: 50px;
+padding-bottom:15px;   
 width: 48%; 
 float:left;
 margin-right: 15px;
@@ -436,7 +440,8 @@ margin-right: 15px;
 
 .doha{
 padding-top: 15px;
-padding-left: 50px;  
+padding-left: 50px;
+padding-bottom:15px;   
 width: 48%; 
 float:left;
 margin-right: 15px;
@@ -444,7 +449,8 @@ margin-right: 15px;
 
 .janoub{
 padding-top: 15px;
-padding-left: 50px;  
+padding-left: 50px; 
+padding-bottom:15px; 
 width: 48%; 
 float:left;
 margin-right: 15px;
