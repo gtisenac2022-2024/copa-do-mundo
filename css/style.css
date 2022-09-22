@@ -402,6 +402,7 @@ height: auto;
 }
 
 .khalifa{
+text-align: right;
 padding-top: 15px;
 padding-left: 50px;
 padding-bottom:15px;   
@@ -462,4 +463,12 @@ padding-left: 50px;
 width: 48%; 
 float:left;
 margin-right: 15px;
+}
+.center h1{
+    padding-top: 10px;
+    font-size:25px;
+    padding-bottom: 10px;
+    padding-left: 60px;  
+    max-width: 600px;
+    text-indent: 35px;     
 }
