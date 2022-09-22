@@ -169,6 +169,14 @@ aside{
     width: 940px;
 }
 
+
+.main-pg-default p{
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+
+
 .h1-sel{
     text-align: center;
     font-family: korolev, verdana;
@@ -394,12 +402,6 @@ footer{
     text-align: center;
 }
 
-
-.main-pg-default p{
-    text-align: justify;
-    text-indent: 20px;
-    margin-bottom: 20px;
-}
 
 .estadios-img{   
     text-align: justify;
