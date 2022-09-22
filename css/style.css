@@ -115,9 +115,12 @@ aside{
     padding-top: 10px;
 }
 
-div .main-text{
+.div-index{
     height: 100vh;
+    background: url(/img/img-index.png);
+    width: 80%;
     background-size: cover;
+    margin-left: 150px;
 }
 
 .center-inicial h1{
