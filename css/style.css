@@ -20,6 +20,7 @@ html,body{
 
 :root{
     --color-white: #FFF;
+    --color-black: #000;
     --color-red: #990f31;
     --color-red-accent: #a8153a;
     --color-red-accent2: #b65870;
@@ -331,12 +332,13 @@ aside{
     font-style: normal;
     background-color: #13b31b;
 }
-.listgrupo{
-    list-style-type: none;
-}
 
-.listgrupo li{
+
+.listgrupo{list-style-type: none;}
+
+.listgrupo ul li{
     font-family: depot-new-condensed-web, sans-serif;
+    font-size: 20px;
     font-style: normal;
     font-weight: lighter;
 }
@@ -398,7 +400,15 @@ footer{
 }
 
 #hr-footer{
-    border: 1px solid white;
+    border: none;
+    height: 1px;
+    background-color: var(--color-white);
+}
+
+#hr-text{
+    border: none;
+    height: 1px;
+    background-color: var(--color-black);
 }
 
 #senac-logo-footer{
@@ -428,7 +438,6 @@ footer{
     width: 48%; 
     float: left;
     margin-right: 15px;
-    margin-bottom: 40px;
     border-radius: 10px;
 }
 
