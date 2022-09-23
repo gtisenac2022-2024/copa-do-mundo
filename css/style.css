@@ -10,13 +10,13 @@ html,body{
     align-items: center;   
 }
 
-/*VARIÁVEIS PARA AS CORES, SE QUISER MUDAR A COR É SÓ MUDAR POR AQUI
+/* ! VARIÁVEIS PARA AS CORES, SE QUISER MUDAR A COR É SÓ MUDAR POR AQUI !!!!!!!!!!!!
 
-Aplicação ex.:
+!    Aplicação ex.:
 
-    color: var(--color-white);
+!    color: var(--color-white);
 
-    Ele vai pegar a variável --color-white e aplicar o valor dela, que no caso é #FFF */
+!    Ele vai pegar a variável --color-white e aplicar o valor dela, que no caso é #FFF */
 
 :root{
     --color-white: #FFF;
@@ -114,13 +114,8 @@ header{
 }
 
 .dropdown-content a:hover{
-<<<<<<< Updated upstream
-    background-color: #b47786;
-    color: #FFFFFF;
-=======
     background-color: var(--color-red);
     color: var(--color-white);
->>>>>>> Stashed changes
     animation-name: navanim;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
