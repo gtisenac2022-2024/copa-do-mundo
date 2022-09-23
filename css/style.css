@@ -384,7 +384,15 @@ footer{
 }
 
 #hr-footer{
-    border: 1px solid white;
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+#hr-pages{
+    border: none;
+    height: 1px;
+    background-color: #525252;
 }
 
 #senac-logo-footer{
