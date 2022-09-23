@@ -23,12 +23,13 @@ html,body{
     --color-red: #990f31;
     --color-red-accent: #a8153a;
     --color-red-accent2: #b65870;
+    --color-table-accent: #ddd;
 }
 
 /* HEADER */
 
 header{
-    background-color: #990f31;
+    background-color: var(--color-red);
     box-sizing: content-box;
     margin-bottom: 30px;
     position: fixed;
@@ -263,7 +264,7 @@ aside{
     font-size: 20px;
     font-style: normal;
 }
-.table-sel tr:nth-child(even) {background-color: #dddddd;}
+.table-sel tr:nth-child(even) {background-color: var(--color-table-accent);}
 
 .player-table{
     border-collapse: collapse;
@@ -430,3 +431,30 @@ footer{
     margin-bottom: 40px;
     border-radius: 10px;
 }
+
+#table-estadio{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#table-estadio th, td{
+    padding: 5px;
+}
+#table-estadio th{
+    color: var(--color-white);
+    background-color: var(--color-red-accent);
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+}
+#table-estadio td{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+.table-estadio tr:nth-child(even) {background-color: var(--color-table-accent);}
