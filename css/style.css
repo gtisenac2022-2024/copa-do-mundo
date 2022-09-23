@@ -98,7 +98,7 @@ header{
 }
 
 .dropdown-content a:hover{
-    background-color: #990f31;
+    background-color: #b47786;
     color: #FFFFFF;
     animation-name: navanim;
     animation-duration: 500ms;
@@ -154,7 +154,7 @@ aside{
 .copa1930{
     padding-top: 15px;
     padding-left: 50px;  
-    width: 80%;    
+    width: 80%;  
 }
 
 .article.img{
@@ -168,14 +168,6 @@ aside{
     margin: 0 auto;
     width: 940px;
 }
-
-
-.main-pg-default p{
-    text-align: justify;
-    text-indent: 20px;
-    margin-bottom: 20px;
-}
-
 
 .h1-sel{
     text-align: center;
@@ -384,15 +376,7 @@ footer{
 }
 
 #hr-footer{
-    border: none;
-    height: 1px;
-    background-color: white;
-}
-
-#hr-pages{
-    border: none;
-    height: 1px;
-    background-color: #525252;
+    border: 1px solid white;
 }
 
 #senac-logo-footer{
@@ -410,6 +394,12 @@ footer{
     text-align: center;
 }
 
+
+.main-pg-default p{
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
 
 .estadios-img{   
     text-align: justify;
