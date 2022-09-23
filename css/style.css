@@ -10,24 +10,40 @@ html,body{
     align-items: center;   
 }
 
+/*VARIÁVEIS PARA AS CORES, SE QUISER MUDAR A COR É SÓ MUDAR POR AQUI
+
+Aplicação ex.:
+
+    color: var(--color-white);
+
+    Ele vai pegar a variável --color-white e aplicar o valor dela, que no caso é #FFF */
+
+:root{
+    --color-white: #FFF;
+    --color-red: #990f31;
+    --color-red-accent: #a8153a;
+    --color-red-accent2: #b65870;
+}
+
 /* HEADER */
 
 header{
     background-color: #990f31;
     box-sizing: content-box;
     margin-bottom: 30px;
-    position: sticky;
+    position: fixed;
+    top: 0px;
 }
 
 .menu li a{
     border-radius: 10px;
-    color: white;
+    color: var(--color-white);
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
 }
 
-.menu li a:hover{background-color: #a8153a;}
+.menu li a:hover{background-color: var(--color-red-accent);}
 
 .header nav{
     display: flex;
@@ -79,7 +95,7 @@ header{
 
 .dropdown-content{
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     display: none;
     position: absolute;
     min-width: 110px;
@@ -89,8 +105,8 @@ header{
 }
 
 .dropdown-content a{
-    color: #990f31;
-    background-color: #FFFFFF;
+    color: var(--color-red);
+    background-color: var(--color-white);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -98,15 +114,24 @@ header{
 }
 
 .dropdown-content a:hover{
+<<<<<<< Updated upstream
     background-color: #b47786;
     color: #FFFFFF;
+=======
+    background-color: var(--color-red);
+    color: var(--color-white);
+>>>>>>> Stashed changes
     animation-name: navanim;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
 }
 
-.dropdown-content-sel a:hover{color: #b65870;}
+.dropdown-content-sel a:hover{color: var(--color-red-accent2);}
 .dropdown:hover .dropdown-content {display: block;}
+
+main{
+    margin-top: 120px;
+}
 
 /*--------------------------------------------------*/
 
@@ -167,6 +192,7 @@ aside{
 .main-pg-default{
     margin: 0 auto;
     width: 940px;
+    
 }
 
 .h1-sel{
@@ -217,8 +243,8 @@ aside{
     font-family: korolev;
     font-weight: 700;
     text-decoration: none;
-    background-color:#990f31;
-    color: #FFFFFF;
+    background-color:var(--color-red);
+    color: var(--color-white);
     padding: 10px;
     border-radius: 7px;
 }
@@ -260,7 +286,7 @@ aside{
 .player-table th{
     font-weight: 700;
     font-size: 22px;
-    color: white;
+    color: var(--color-white);
 }
 
 .player-table td{
@@ -269,7 +295,7 @@ aside{
     padding: 20px;
 }
 
-#catar{background-color: #990f31;}
+#catar{background-color: var(--color-red);}
 #equador{background-color: #DCB204;}
 #senegal{background-color: #108a00;}
 #holanda{background-color: #f1680c;}
@@ -295,8 +321,8 @@ aside{
     padding: 5px;
 }
 #grupos th{
-    color: white;
-    background-color: #a8153a;
+    color: var(--color-white);
+    background-color: var(--color-red-accent);
     font-family: depot-new-condensed-web,sans-serif;
     font-weight: 700;
     font-size: 22px;
@@ -323,7 +349,7 @@ aside{
 
 /* CSS FOOTER */
 footer{
-    background-color: #990f31;
+    background-color: var(--color-red);
     margin: 0 auto;
     align-content: left;
     text-align: center;
@@ -363,7 +389,7 @@ footer{
 }
 
 .ol-footer li a:hover{
-    background-color: #a8153a;
+    background-color: var(--color-red-accent);
     color: #FFFFFF
 }
 
