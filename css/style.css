@@ -35,6 +35,7 @@ header{
     margin-bottom: 30px;
     position: fixed;
     top: 0px;
+    width: 100%;
 }
 
 .menu li a{
@@ -137,10 +138,9 @@ aside{
     padding-top: 10px;
 }
 
-.div-index{
+.img-index{
     height: 100vh;
-    background: url(/img/img-index.png);
-    width: 80%;
+    width: 90%;
     background-size: cover;
     margin-left: 150px;
 }
